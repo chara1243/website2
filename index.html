@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Charan Bhattarai | Environmental Scientist</title>
+    <title>Charan Bhattarai | Environmental Enthusiast</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <style>
         * {
@@ -156,7 +156,30 @@
             max-width: 900px;
             z-index: 1;
         }
+<!-- Profile Image in Hero Section -->
+<div class="profile-image-container">
+    <img src="images/profile.jpg" alt="Charan Bhattarai" class="profile-img">
+</div>
+        .profile-image-container {
+    width: 200px;
+    height: 200px;
+    margin: 0 auto 2rem;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 4px solid var(--neon-blue);
+    box-shadow: 0 0 30px rgba(0, 243, 255, 0.5);
+}
 
+.profile-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.3s;
+}
+
+.profile-img:hover {
+    transform: scale(1.1);
+}
         /* Typing Animation */
         .typing-container {
             margin-bottom: 2rem;
